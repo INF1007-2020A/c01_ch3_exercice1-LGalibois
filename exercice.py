@@ -1,15 +1,13 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-
+import math
 
 def square_root(number: int) -> float:
-    # TODO completer la fonction
-    return square_rooted
+    return math.sqrt(number)
 
 
 def square(number: int) -> int:
-    # TODO completer la fonction
-    return squared
+    return number ** 2
 
 
 def main() -> None:
